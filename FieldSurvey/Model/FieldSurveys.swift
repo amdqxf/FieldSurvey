@@ -1,5 +1,5 @@
 //
-//  FieldSurvey.swift
+//  FieldSurveys.swift
 //  FieldSurvey
 //
 //  Created by Allison Dolan on 11/12/18.
@@ -27,6 +27,7 @@ struct FieldSurvey: Codable {
 
 struct FieldSurveys: Codable{
     var status: String
-    var surveys: [FieldSurvey]
+    var observations: [FieldSurvey]
 }
+
 
